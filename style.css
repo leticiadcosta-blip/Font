@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  background-color: #7dc0d4; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-login {
+  display: flex;
+  width: 800px;
+  height: 480px;
+  background-color: #ffffff;
+  border-radius: 12px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  overflow: hidden; 
+}
+
+.lado-esquerdo {
+  flex: 1;
+  background-color: #111a2e; 
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lado-esquerdo h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.lado-esquerdo .subtitulo {
+  color: #3b82f6; 
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.lado-direito {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lado-direito h2 {
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.subtitulo-form {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 5px;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+}
+
+.campo input:focus {
+  border-color: #2563eb;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.link-esqueceu {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #2563eb;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.link-esqueceu:hover {
+  text-decoration: underline;
+}
