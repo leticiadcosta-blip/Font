@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holleycarros - Sistema</title>
+  <link rel="stylesheet" href="clientes.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2><i class="fa-solid fa-car-side"></i> Holleycarros</h2>
+    <nav class="menu">
+      <a href="telainicial.html" >Início</a>
+      <a href="telaclientes.html">Clientes</a>
+      <a href="veiculos.html">Veículos</a>
+       <a href="agendamento.html">Agendamento</a>
+     
+    </nav>
+  
+
+    </div>
+    
+    <a href="telainicial.html" class="sair-btn"> Sair</a>
+  </aside>
+ <div class="main-content">
+
+
+    <header class="header">
+      <input type="text" class="campo-busca" placeholder="Buscar no sistema...">
+      <div class="usuario"> <i class="fa-solid fa-user"> </i>nomepessoa </div>
+    </header>
+
+    <main class="container">
+
+      <section id="tela-lista">
+        <div class="titulo-pagina">
+       <i class="fa-solid fa-user"> Clientes </i>
+          <p>Gerencie os clientes cadastrados no sistema.</p>
+        </div>
+       <div class="card">
+          <div class="top-bar">
+            <input type="text" class="campo-busca" placeholder="Pesquisar cliente...">
+            <button class="btn-principal">+ Novo Cliente</button>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Telefone</th>
+                 <th>Cpf</th>
+                 <th>Ações</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>001</td>
+                <td>Luiz Silva</td>
+                <td>luiz@email.com</td>
+                <td>(14) 99898-1111</td>
+                <td>009.934.472-60</td>
+                <td>✏️🗑️</td>
+               
+                 
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Maria Santos</td>
+                <td>maria@email.com</td>
+                <td>(14) 98888-2222</td>
+                <td> 657418379-88</td>
+               <td>✏️🗑️</td>
+              
+              </tr>
+              <tr>
+                <td>003</td>
+                <td>Leticia Santos</td>
+                <td>leticia@email.com</td>
+                <td>(14) 98456-33333</td>
+                <td> 6574183334-88</td>
+                <td>✏️🗑️</td>
+              
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+        <div class="card">
+         
+           
+
+          </div>
+        
+        
+          <section id="tela-cadastro" >
+        <div class="titulo-pagina">
+          <h1> Cadastro de Cliente</h1>
+          <p>Preencha os dados abaixo para cadastrar um novo cliente.</p>
+        </div>
+
+          <div class="card">
+          
+            <div class="form-grid">
+              
+              <div class="form-group">
+                <label>Nome *</label>
+                <input type="text" placeholder="Digite o nome completo" required >
+              </div>
+
+              <div class="form-group">
+                <label>E-mail *</label>
+                <input type="email" placeholder="Digite o e-mail" required >
+              </div>
+
+              <div class="form-group">
+                <label>Telefone *</label>
+                <input type="text" placeholder="(00) 00000-0000" required >
+              </div>
+
+              <div class="form-group">
+                <label>Cpf *</label>
+                <input type="text" placeholder="Digite seu CPF" required >
+              </div>
+
+
+         
+          <button type="submit" class="btn-principal"> Salvar</button>
+            </div>
+          </form>
+        </div>
+
+      
+      </section>
+
+    </main>
+  </div>
+
+
+</body>
+</html>
